@@ -30487,6 +30487,114 @@ TextureImporter:
     second: idleDown
   - first:
       213: -2992618758386634439
+    second: walkDown1
+  - first:
+      213: 9198156167194019712
+    second: walkDown2
+  - first:
+      213: 4834115892675547668
+    second: walkDown3
+  - first:
+      213: 796295915932483112
+    second: idleLeft
+  - first:
+      213: -1120985102141816953
+    second: walkLeft1
+  - first:
+      213: -6963764356934930619
+    second: walkLeft2
+  - first:
+      213: 8373796223223395814
+    second: walkLeft3
+  - first:
+      213: 6039824798239473547
+    second: idleRight
+  - first:
+      213: -3405230534317203241
+    second: walkRight1
+  - first:
+      213: -7184919334431468725
+    second: walkRight2
+  - first:
+      213: -6145807412547086935
+    second: walkRight3
+  - first:
+      213: 960246983155946433
+    second: idleUp
+  - first:
+      213: 2484102132997270636
+    second: walkUp1
+  - first:
+      213: 6361717502019379348
+    second: walkUp2
+  - first:
+      213: 2407170409063505571
+    second: walkUp3
+  - first:
+      213: 7464254865665844935
+    second: playerMovement_16
+  - first:
+      213: -7175233702298130192
+    second: downWalk(1)
+  - first:
+      213: 7921452762961248644
+    second: playerMovement_18
+  - first:
+      213: -6042476309542370987
+    second: playerMovement_19
+  - first:
+      213: -7655280483586058840
+    second: playerMovement_0
+  - first:
+      213: 8097915149618744653
+    second: playerMovement_1
+  - first:
+      213: -9219620595315155122
+    second: playerMovement_2
+  - first:
+      213: 5022429246201949745
+    second: playerMovement_3
+  - first:
+      213: 3042633960207804774
+    second: playerMovement_4
+  - first:
+      213: -8968473245797308714
+    second: playerMovement_5
+  - first:
+      213: -73020550068616427
+    second: playerMovement_6
+  - first:
+      213: -330175365528390037
+    second: playerMovement_7
+  - first:
+      213: -4383465458757199688
+    second: playerMovement_8
+  - first:
+      213: 7372354768132596535
+    second: playerMovement_9
+  - first:
+      213: 7429679272148460516
+    second: playerMovement_10
+  - first:
+      213: -910338196586646781
+    second: playerMovement_11
+  - first:
+      213: 4717012604155821567
+    second: playerMovement_12
+  - first:
+      213: 4592870847363589445
+    second: playerMovement_13
+  - first:
+      213: 5469757367800521839
+    second: playerMovement_14
+  - first:
+      213: -4273301725593369677
+    second: playerMovement_15
+  - first:
+      213: 439423533106682669
+    second: playerMovement_0
+  - first:
+      213: -2992618758386634439
     second: playerMovement_1
   - first:
       213: 9198156167194019712
@@ -30496,7 +30604,7 @@ TextureImporter:
     second: playerMovement_3
   - first:
       213: 796295915932483112
-    second: idleLeft
+    second: playerMovement_4
   - first:
       213: -1120985102141816953
     second: playerMovement_5
@@ -30508,7 +30616,7 @@ TextureImporter:
     second: playerMovement_7
   - first:
       213: 6039824798239473547
-    second: idleRight
+    second: playerMovement_8
   - first:
       213: -3405230534317203241
     second: playerMovement_9
@@ -30520,7 +30628,7 @@ TextureImporter:
     second: playerMovement_11
   - first:
       213: 960246983155946433
-    second: idleUp
+    second: playerMovement_12
   - first:
       213: 2484102132997270636
     second: playerMovement_13
@@ -30530,9 +30638,6 @@ TextureImporter:
   - first:
       213: 2407170409063505571
     second: playerMovement_15
-  - first:
-      213: 7464254865665844935
-    second: playerMovement_16
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -30630,7 +30735,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: idleDown
+      name: playerMovement_0
       rect:
         serializedVersion: 2
         x: 0
@@ -30638,7 +30743,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30659,7 +30764,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30680,7 +30785,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30701,7 +30806,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30714,15 +30819,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idleLeft
+      name: playerMovement_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 129
+        y: 128
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30743,7 +30848,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30764,7 +30869,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30785,7 +30890,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30798,7 +30903,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idleRight
+      name: playerMovement_8
       rect:
         serializedVersion: 2
         x: 0
@@ -30806,7 +30911,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30827,7 +30932,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30848,7 +30953,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30869,7 +30974,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30882,7 +30987,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: idleUp
+      name: playerMovement_12
       rect:
         serializedVersion: 2
         x: 0
@@ -30890,7 +30995,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30911,7 +31016,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30932,7 +31037,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30953,7 +31058,7 @@ TextureImporter:
         width: 64
         height: 64
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -30961,27 +31066,6 @@ TextureImporter:
       bones: []
       spriteID: 3aedf0abbbcf76120800000000000000
       internalID: 2407170409063505571
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: playerMovement_16
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 62
-        width: 216
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c66ef4c04c569760800000000000000
-      internalID: 7464254865665844935
       vertices: []
       indices: 
       edges: []

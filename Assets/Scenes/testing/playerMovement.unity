@@ -127,6 +127,27 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 7900128480101709786}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &246349665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246349664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e504700025954ed4d9a9af85a6d3bf4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rb: {fileID: 246349666}
+  animator: {fileID: 246349669}
+--- !u!50 &246349666 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 7900128480074287291, guid: 4c2f1beb6271740f9b3df7dc6b5be2f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7900128480101709786}
+  m_PrefabAsset: {fileID: 0}
 --- !u!95 &246349669
 Animator:
   serializedVersion: 3

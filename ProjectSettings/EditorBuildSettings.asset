@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/GH Logo.unity
+    guid: 597d7fae652083547a72b44f9aee3a90
+  - enabled: 1
     path: Assets/Scenes/MainMenu.unity
     guid: e84c9862265a1104a9d724503d4111aa
   - enabled: 1
@@ -14,7 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Demo.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/testing/levelBuilding.unity
     guid: 1522a37e4b984477ab262cd8743bc95f
   m_configObjects: {}

@@ -10,7 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 7900128480074287294}
   - component: {fileID: 7900128480074287289}
+<<<<<<< HEAD
   - component: {fileID: 7900128480074287288}
+=======
+>>>>>>> demo
   - component: {fileID: 7900128480074287291}
   m_Layer: 0
   m_Name: MainPayer
@@ -83,6 +86,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
 --- !u!114 &7900128480074287288
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97,6 +101,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 7900128480074287291}
+=======
+>>>>>>> demo
 --- !u!50 &7900128480074287291
 Rigidbody2D:
   serializedVersion: 4

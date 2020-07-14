@@ -121,12 +121,40 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Scenes/testing/playerMovement.unity
+=======
+>>>>>>> demo
 --- !u!1 &246349664 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7900128480074287290, guid: 4c2f1beb6271740f9b3df7dc6b5be2f0,
     type: 3}
   m_PrefabInstance: {fileID: 7900128480101709786}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+=======
+--- !u!114 &246349665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 246349664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e504700025954ed4d9a9af85a6d3bf4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 5
+  rb: {fileID: 246349666}
+  animator: {fileID: 246349669}
+--- !u!50 &246349666 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 7900128480074287291, guid: 4c2f1beb6271740f9b3df7dc6b5be2f0,
+    type: 3}
+  m_PrefabInstance: {fileID: 7900128480101709786}
+  m_PrefabAsset: {fileID: 0}
+>>>>>>> demo
 --- !u!95 &246349669
 Animator:
   serializedVersion: 3
@@ -147,6 +175,12 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1772375374
+<<<<<<< HEAD
+=======
+--- !u!1 &1494165981
+>>>>>>> demo:Assets/Scenes/GHLogo.unity
+=======
+>>>>>>> demo
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -154,9 +188,198 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Scenes/testing/playerMovement.unity
   - component: {fileID: 1772375377}
   - component: {fileID: 1772375376}
   - component: {fileID: 1772375375}
+=======
+  - component: {fileID: 1494165983}
+  - component: {fileID: 1494165982}
+  - component: {fileID: 1494165985}
+  - component: {fileID: 1494165984}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!328 &1494165982
+VideoPlayer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494165981}
+  m_Enabled: 1
+  m_VideoClip: {fileID: 32900000, guid: 76225d4e13435ce428b37f08bea8f39d, type: 3}
+  m_TargetCameraAlpha: 1
+  m_TargetCamera3DLayout: 0
+  m_TargetCamera: {fileID: 1818879732}
+  m_TargetTexture: {fileID: 0}
+  m_TimeReference: 0
+  m_TargetMaterialRenderer: {fileID: 0}
+  m_TargetMaterialProperty: _MainTex
+  m_RenderMode: 0
+  m_AspectRatio: 2
+  m_DataSource: 0
+  m_PlaybackSpeed: 1
+  m_AudioOutputMode: 1
+  m_TargetAudioSources:
+  - {fileID: 1494165985}
+  m_DirectAudioVolumes:
+  - 1
+  m_Url: 
+  m_EnabledAudioTracks: 01
+  m_DirectAudioMutes: 00
+  m_ControlledAudioTrackCount: 1
+  m_PlayOnAwake: 1
+  m_SkipOnDrop: 1
+  m_Looping: 0
+  m_WaitForFirstFrame: 1
+  m_FrameReadyEventEnabled: 0
+--- !u!4 &1494165983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494165981}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.109336756, y: 0.18643716, z: -28.730469}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1494165984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494165981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a785bf51488ca4db929f03674f9c2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  VideoPlayer: {fileID: 1494165982}
+  SceneName: MainMenu
+--- !u!82 &1494165985
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494165981}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &1818879730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1818879733}
+  - component: {fileID: 1818879732}
+  - component: {fileID: 1818879731}
+>>>>>>> demo:Assets/Scenes/GHLogo.unity
+=======
+  - component: {fileID: 1772375377}
+  - component: {fileID: 1772375376}
+  - component: {fileID: 1772375375}
+>>>>>>> demo
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -164,25 +387,57 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Scenes/testing/playerMovement.unity
 --- !u!81 &1772375375
+=======
+--- !u!81 &1818879731
+>>>>>>> demo:Assets/Scenes/GHLogo.unity
+=======
+--- !u!81 &1772375375
+>>>>>>> demo
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Scenes/testing/playerMovement.unity
   m_GameObject: {fileID: 1772375374}
   m_Enabled: 1
 --- !u!20 &1772375376
+=======
+  m_GameObject: {fileID: 1818879730}
+  m_Enabled: 1
+--- !u!20 &1818879732
+>>>>>>> demo:Assets/Scenes/GHLogo.unity
+=======
+  m_GameObject: {fileID: 1772375374}
+  m_Enabled: 1
+--- !u!20 &1772375376
+>>>>>>> demo
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Scenes/testing/playerMovement.unity
+  m_GameObject: {fileID: 1772375374}
+=======
+  m_GameObject: {fileID: 1818879730}
+>>>>>>> demo:Assets/Scenes/GHLogo.unity
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
+=======
   m_GameObject: {fileID: 1772375374}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+>>>>>>> demo
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -215,13 +470,29 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Scenes/testing/playerMovement.unity
 --- !u!4 &1772375377
+=======
+--- !u!4 &1818879733
+>>>>>>> demo:Assets/Scenes/GHLogo.unity
+=======
+--- !u!4 &1772375377
+>>>>>>> demo
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+<<<<<<< HEAD:Assets/Scenes/testing/playerMovement.unity
   m_GameObject: {fileID: 1772375374}
+=======
+  m_GameObject: {fileID: 1818879730}
+>>>>>>> demo:Assets/Scenes/GHLogo.unity
+=======
+  m_GameObject: {fileID: 1772375374}
+>>>>>>> demo
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}

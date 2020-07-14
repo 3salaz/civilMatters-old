@@ -10,6 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162687129582516}
   - component: {fileID: 1841162687129582517}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 4645636574756954207}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -82,6 +86,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &4645636574756954207
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162687129582515}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.05100002}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.057999954}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162687161591604
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,6 +549,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162687635739178}
   - component: {fileID: 1841162687635739179}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1409448120030454295}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -530,7 +567,11 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841162687635739177}
+<<<<<<< HEAD
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+=======
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+>>>>>>> demo
   m_LocalPosition: {x: -0.44446284, y: -0.08175373, z: 9.0138}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -588,6 +629,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &1409448120030454295
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162687635739177}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.051927187}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.056145623}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162687645263006
 GameObject:
   m_ObjectHideFlags: 0
@@ -712,6 +782,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162687931374888}
   - component: {fileID: 1841162687931374889}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 5125499642073762119}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -784,6 +858,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &5125499642073762119
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162687931374887}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.052830316}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.054339364}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162687939663479
 GameObject:
   m_ObjectHideFlags: 0
@@ -794,6 +897,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162687939663480}
   - component: {fileID: 1841162687939663481}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 2453584599277928390}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -866,6 +973,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &2453584599277928390
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162687939663479}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.053549923}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.05290015}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162687994786870
 GameObject:
   m_ObjectHideFlags: 0
@@ -1104,6 +1240,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162688273186519}
   - component: {fileID: 1841162688273186520}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 6714477553841282346}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -1176,6 +1316,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &6714477553841282346
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162688273186518}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.053549923}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.05290015}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162688294598216
 GameObject:
   m_ObjectHideFlags: 0
@@ -1186,6 +1355,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162688294598217}
   - component: {fileID: 1841162688294598218}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 4091508780359310964}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -1258,6 +1431,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &4091508780359310964
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162688294598216}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.053549923}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.05290015}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162688302793754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1268,6 +1470,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162688302793755}
   - component: {fileID: 1841162688302793756}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 7311277543093339912}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -1340,6 +1546,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &7311277543093339912
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162688302793754}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.05030445}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.059391096}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162688404595156
 GameObject:
   m_ObjectHideFlags: 0
@@ -1382,6 +1617,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162688540085358}
   - component: {fileID: 1841162688540085359}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 2083939668702842444}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -1454,6 +1693,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &2083939668702842444
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162688540085357}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.050716974}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.05856605}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162688668475650
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,6 +1967,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1841162688970292035}
   - component: {fileID: 1841162688970292036}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 8705471250407140458}
+>>>>>>> demo
   m_Layer: 0
   m_Name: citySheet_475
   m_TagString: Untagged
@@ -1771,6 +2043,35 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+<<<<<<< HEAD
+=======
+--- !u!61 &8705471250407140458
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1841162688970292034}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.053549923}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.12, y: 0.16}
+    newSize: {x: 0.12, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.12, y: 0.05290015}
+  m_EdgeRadius: 0
+>>>>>>> demo
 --- !u!1 &1841162689001583986
 GameObject:
   m_ObjectHideFlags: 0

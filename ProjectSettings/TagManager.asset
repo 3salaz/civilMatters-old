@@ -47,3 +47,6 @@ TagManager:
   - name: Player
     uniqueID: 4007844015
     locked: 0
+  - name: Fence
+    uniqueID: 91638815
+    locked: 0

@@ -200,6 +200,9 @@ PrefabInstance:
     - target: {fileID: 114754865640368622, guid: ed022c6eaaa372f498c83d69665e2adc,
         type: 3}
       propertyPath: _newGameButtonLevel
+<<<<<<< HEAD
+      value: Scenes/Demo
+=======
       value: Scenes/ActOne
       objectReference: {fileID: 0}
     - target: {fileID: 114993341941609502, guid: ed022c6eaaa372f498c83d69665e2adc,
@@ -227,6 +230,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.x
       value: 184.99512
+>>>>>>> 49bb3a64543c561cf6936b13033d7a098e1c8253
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ed022c6eaaa372f498c83d69665e2adc, type: 3}

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: ad79963cf68d44aee94a8292f173235b
+timeCreated: 1504498829
+licenseType: Store
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 14
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: ProFontIIx
+  fontNames:
+  - ProFontIIx
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 377a2f88c64de45a0b65698df24b33a3, type: 3}
+  customCharacters: 
+  fontRenderingMode: 2
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
